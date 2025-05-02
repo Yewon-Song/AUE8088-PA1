@@ -4,7 +4,7 @@
         - For better flexibility, consider using LightningCLI in PyTorch Lightning
 """
 # PyTorch & Pytorch Lightning
-from lightning.pytorch.loggers.wandb import WandbLogger
+from lightning.pytorch.loggers import WandbLogger
 from lightning.pytorch.callbacks import LearningRateMonitor, ModelCheckpoint
 from lightning import Trainer
 import torch
